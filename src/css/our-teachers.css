@@ -1,0 +1,24 @@
+.teachers-title {
+  font-family: Manrope, serif;
+  color: var(--color-title-black);
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  line-height: 1.125;
+  letter-spacing: -0.64px;
+  padding-bottom: 16px;
+}
+
+.teachers-text {
+  color: var(--color-main-tex-black-50);
+  font-family: Manrope, serif;
+  text-align: center;
+  font-style: normal;
+  line-height: 24px;
+  padding-bottom: 40px;
+}
+
+.teachers-list {
+  display: flex;
+  flex-direction: column;
+}

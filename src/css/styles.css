@@ -1,0 +1,31 @@
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+@import url('./variables.css');
+@import url('./reset.css');
+@import url('./container.css');
+@import url('./section.css');
+@import url('./common.css');
+@import url('./header.css');
+@import url('./our-lessons.css');
+@import url('./our-teachers.css');
+@import url('./leave-an-application.css');
+
+:root {
+  font-family: 'Manrope', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color: rgba(18, 20, 23, 0.5);
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}

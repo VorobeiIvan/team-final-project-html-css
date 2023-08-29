@@ -26,9 +26,8 @@
 }
 
 .leave-an-application__head-title {
-  color: #121417;
+  color: var(--color-title-black, #121417);
   text-align: center;
-  font-family: Manrope;
   font-size: 32px;
   font-weight: 600;
   line-height: 1.13; /* 112.5% */
@@ -57,7 +56,6 @@
 .leave-an-application__head-text {
   color: rgba(18, 20, 23, 0.8);
   text-align: center;
-  font-family: Manrope;
   font-size: 14px;
   line-height: 1.71; /* 171.429% */
   max-width: 335px;
@@ -82,31 +80,9 @@
   }
 }
 
-@media screen and (min-width: 375px) {
-}
-@media screen and (min-width: 768px) {
-}
-@media screen and (min-width: 1280px) {
-}
-
 .leave-an-application__common-wrapper {
   display: flex;
-}
-
-@media screen and (min-width: 375px) {
-  .leave-an-application__common-wrapper {
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .leave-an-application__common-wrapper {
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .leave-an-application__common-wrapper {
-    gap: 32px;
-  }
+  gap: 32px;
 }
 
 .leave-an-application__content-wrapper {
@@ -120,7 +96,7 @@
     align-items: center;
     gap: 20px;
     border-radius: 30px;
-    background: #4dc274;
+    background: var(--color-primary-brand-green, #4dc274);
     width: 492px;
     padding-bottom: 40px;
   }
@@ -133,9 +109,9 @@
     overflow: hidden;
     width: 492px;
     height: 392px;
-    background-color: #4dc274;
+    background-color: var(--color-primary-brand-green, #4dc274);
 
-    background-image: url(../img/leave-an-application.png);
+    background-image: url(../img/leave-an-application/leave-an-application.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -145,7 +121,7 @@
 @media (min-width: 1280px) and (min-device-pixel-ratio: 2),
   (min-width: 1280px) and (min-resolution: 192dpi) {
   .leave-an-application__image-wrapper {
-    background-image: url(../img/leave-an-application@2x.png);
+    background-image: url(../img/leave-an-application/leave-an-application@2x.png);
   }
 }
 
@@ -164,9 +140,8 @@
 }
 
 .leave-an-application__content__title {
-  color: #fff;
+  color: var(--color-white, #fff);
   text-align: center;
-  font-family: Manrope;
   font-size: 40px;
   font-weight: 700;
   line-height: 1.2; /* 120% */
@@ -176,7 +151,6 @@
 .leave-an-application__content__text {
   color: rgba(255, 255, 255, 0.7);
   text-align: center;
-  font-family: Manrope;
   font-size: 16px;
   line-height: 1.5; /* 150% */
 }
@@ -238,8 +212,7 @@
 }
 
 .leave-an-application__form__input::placeholder {
-  color: #121417;
-  font-family: Manrope;
+  color: var(--color-title-black, #121417);
   font-size: 14px;
   line-height: 1.29; /* 128.571% */
 }
@@ -269,8 +242,7 @@
 }
 
 .leave-an-application__radio__title {
-  color: #121417;
-  font-family: Manrope;
+  color: var(--color-title-black, #121417);
   font-size: 18px;
   font-weight: 600;
   line-height: 1.33; /* 133.333% */
@@ -313,9 +285,8 @@
 }
 
 .leave-an-application__radio-label-title {
-  color: #121417;
+  color: var(--color-title-black, #121417);
   text-align: center;
-  font-family: Manrope;
   font-size: 14px;
   line-height: 1.71; /* 171.429% */
   letter-spacing: -0.02em; /*-0.28px*/
@@ -341,15 +312,13 @@
   align-items: center;
 
   border-radius: 12px;
-  background: #4dc274;
+  background: var(--color-primary-brand-green, #4dc274);
   border: none;
   margin-bottom: 16px;
 }
 
 @media screen and (min-width: 768px) {
   .leave-an-application__form__btn {
-    /* display: flex; */
-    /* width: 500px; */
     padding: 16px 228px;
     justify-content: center;
     align-items: center;
@@ -357,8 +326,7 @@
 }
 
 .leave-an-application__form__btn-text {
-  color: #fff;
-  font-family: Manrope;
+  color: var(--color-white, #fff);
   font-size: 14px;
   font-weight: 700;
   line-height: 1.71; /* 171.429% */
@@ -374,7 +342,6 @@
 
 .leave-an-appliation__privacy-policy__text {
   color: rgba(18, 20, 23, 0.5);
-  font-family: Manrope;
   font-size: 12px;
   line-height: 1.33; /* 133.333% */
 }
@@ -388,7 +355,6 @@
 
 .leave-an-appliation__privacy-policy__link {
   color: rgba(18, 20, 23, 0.5);
-  font-family: Manrope;
   font-size: 12px;
   line-height: 1.33;
   text-decoration-line: underline;

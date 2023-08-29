@@ -8,6 +8,7 @@
   line-height: 36px; /* 112.5% */
   letter-spacing: -0.64px;
   padding-bottom: 16px;
+  position: relative;
 }
 @media screen and (min-width: var(--tablet-width)) {
   .our-lessons-title {
@@ -16,6 +17,15 @@
     line-height: 48px; /* 120% */
     letter-spacing: -0.8px;
   }
+}
+
+.our-lessons-title-pseudo {
+  position: relative;
+  display: inline-block;
+}
+
+.our-lessons-title-pseudo.pseudo:after {
+  transform: translateY(30%);
 }
 
 .our-lessons-text {

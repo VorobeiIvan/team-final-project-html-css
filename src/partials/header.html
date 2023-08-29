@@ -2,16 +2,16 @@
 
 <header class="page-header">
     <!-- header container -->
-    <div class="container">
+    <div class="header-container container">
         <!-- header navigation -->
+
+        <!-- logo -->
+        <a class="logo" href="./index.html">
+            <span class="dark-logo logo">english</span>excellence.
+        </a>
+        <!-- navigation -->
         <nav class="header-nav">
             <ul class="header-nav-list">
-                <li class="header-nav-item">
-                    <!-- logo -->
-                    <a class="header-nav-link" href="./index.html">
-                        <span class="dark-logo logo">english</span>excellence.
-                    </a>
-                </li>
                 <!-- menu -->
                 <li class="header-nav-item">
                     <a class="header-nav-link" href="#about-us-section">
@@ -72,79 +72,85 @@
 
         <!-- mobile burger menu -->
         <!--mobile header  -->
-        <button class="burger-menu-tablet" type="button">
-            <svg class="social-media-icon" width="32" height="23" aria-label="burger menu icon for mobile">
+        <button class="burger-menu-btn btn js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+            <svg class="burger-icon" width="32" height="23" aria-label="burger menu icon for mobile">
                 <use href="./images/icons.svg#icon-burger-menu"></use>
             </svg>
         </button>
-    </div>
-    <!-- modal burger menu  -->
-    <div class="overlay">
-        <div class="modal">
-            <button class="close-modal-btn">
-                <svg class="close-modal-btn-icon" width="16" height="16"
-                    aria-label="closing button icon for burger menu mobile">
-                    <use href="./images/icons.svg#icon-close-btn"></use>
-                </svg>
-            </button>
-            <nav class="nav-burger-menu">
-                <ul class="nav-burger-menu-list">
-                    <li class="nav-burger-menu-item">
-                        <a class="nav-burger-menu-link" href="#about-us-section">
-                            About us
-                        </a>
-                    </li>
-                    <li class="nav-burger-menu-item">
-                        <a class="nav-burger-menu-link" href="#our-lessons-section">
-                            Our lessons
-                        </a>
-                    </li>
-                    <li class="nav-burger-menu-item">
-                        <a class="nav-burger-menu-link" href="#teachers-section">
-                            Teachers
-                        </a>
-                    </li>
-                    <li class="nav-burger-menu-item">
-                        <a class="nav-burger-menu-link" href="#comments-section">
-                            Reviews
-                        </a>
-                    </li>
-                    <li class="nav-burger-menu-item">
-                        <a class="nav-burger-menu-link" href="#application-section">
-                            Contact us
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-            <!-- social media -->
-            <div class="social-media-container">
-                <ul class="social-media-list">
-                    <!-- facebook -->
-                    <li class="social-media-item">
-                        <a class="social-media-link" href="https://www.facebook.com/goITclub/">
-                            <svg class="social-media-icon" width="28" height="28" aria-label="facebook icon">
-                                <use href="./images/icons.svg#icon-facebook"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <!-- instagram -->
-                    <li class="social-media-item">
-                        <a class="social-media-link" href="https://www.instagram.com/goitclub/">
-                            <svg class="social-media-icon" width="28" height="28" aria-label="instagram icon">
-                                <use href="./images/icons.svg#icon-instagram"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <!-- youtube -->
-                    <li class="social-media-item">
-                        <a class="social-media-link" href="https://www.youtube.com/c/GoIT">
-                            <svg class="social-media-icon" width="28" height="28" aria-label="youtube icon">
-                                <use href="./images/icons.svg#icon-youtube"></use>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
+
+        <!-- modal burger menu  -->
+        <div class="menu-container js-menu-container">
+            <div class="modal">
+                <button class="close-btn js-close-menu" type="button">
+                    <svg class="close-modal-btn-icon" width="16" height="16"
+                        aria-label="closing button icon for burger menu mobile">
+                        <use href="./images/icons.svg#icon-close-btn"></use>
+                    </svg>
+                </button>
+                <nav class="nav-burger-menu">
+                    <ul class="nav-burger-menu-list">
+                        <li class="nav-burger-menu-item">
+                            <a class="nav-burger-menu-link" href="#about-us-section">
+                                About us
+                            </a>
+                        </li>
+                        <li class="nav-burger-menu-item">
+                            <a class="nav-burger-menu-link" href="#our-lessons-section">
+                                Our lessons
+                            </a>
+                        </li>
+                        <li class="nav-burger-menu-item">
+                            <a class="nav-burger-menu-link" href="#teachers-section">
+                                Teachers
+                            </a>
+                        </li>
+                        <li class="nav-burger-menu-item">
+                            <a class="nav-burger-menu-link" href="#comments-section">
+                                Reviews
+                            </a>
+                        </li>
+                        <li class="nav-burger-menu-item">
+                            <a class="nav-burger-menu-link" href="#application-section">
+                                Contact us
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- social media -->
+                <div class="burger-social-media-container">
+                    <ul class="burger-social-media-list">
+                        <!-- facebook -->
+                        <li class="burger-social-media-item">
+                            <a class="burger-social-media-link" href="https://www.facebook.com/goITclub/">
+                                <svg class="burger-social-media-icon" width="26" height="26" aria-label="facebook icon">
+                                    <use href="./images/icons.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <!-- instagram -->
+                        <li class="burger-social-media-item">
+                            <a class="burger-social-media-link" href="https://www.instagram.com/goitclub/">
+                                <svg class="burger-social-media-icon" width="26" height="26"
+                                    aria-label="instagram icon">
+                                    <use href="./images/icons.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <!-- youtube -->
+                        <li class="burger-social-media-item">
+                            <a class="burger-social-media-link" href="https://www.youtube.com/c/GoIT">
+                                <svg class="burger-social-media-icon" width="26" height="26" aria-label="youtube icon">
+                                    <use href="./images/icons.svg#icon-youtube"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+        integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+        crossorigin="anonymous"></script>
+    <script defer src="js/mobile-menu.js"></script>
 </header>

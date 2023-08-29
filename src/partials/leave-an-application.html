@@ -1,0 +1,188 @@
+<section class="section leave-an-application">
+  <div class="container">
+    <div class="leave-an-application__head-wrapper">
+      <h2 class="leave-an-application__head-title">Leave an application</h2>
+      <p class="leave-an-application__head-text">
+        Please use the form below to contact us. Enter your name, email, and
+        message and we'll get back to you shortly.
+      </p>
+    </div>
+
+    <div class="leave-an-application__common-wrapper">
+      <div class="leave-an-application__content-wrapper">
+        <div class="leave-an-application__image-wrapper">
+          <!-- <img
+            class="leave-an-application__image"
+            srcset="
+              ./img/leave-an-application.jpg    1x,
+              ./img/leave-an-application@2x.jpg 2x
+            "
+            src="./img/leave-an-application.jpg"
+            alt="Girl has online class"
+            width="492"
+            height="392"
+          /> -->
+        </div>
+        <div class="leave-an-application__content">
+          <p class="leave-an-application__content__title">1000</p>
+          <p class="leave-an-application__content__text">
+            of our online English language lessons! This journey has been full
+            of discovery, growth and unforgettable moments, and we are happy to
+            share this joyful event with you.
+          </p>
+        </div>
+      </div>
+
+      <form class="leave-an-application__form">
+        <div class="leave-an-application__inputs-wrapper">
+          <label class="leave-an-application__form__label" for="user-name">
+            <input
+              class="leave-an-application__form__input"
+              type="text"
+              name="user-name"
+              id="user-name"
+              placeholder="Name"
+              pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
+              title="Oleksii"
+              autofocus
+              required
+          /></label>
+
+          <label class="leave-an-application__form__label" for="user-email">
+            <input
+              class="leave-an-application__form__input"
+              type="email"
+              name="user-email"
+              id="user-email"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+              title="example@gmail.com"
+              placeholder="Email"
+              required
+          /></label>
+
+          <label class="leave-an-application__form__label" for="user-phone">
+            <input
+              class="leave-an-application__form__input"
+              type="tel"
+              name="user-phone"
+              id="user-phone"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+              title="xxx-xxx-xx-xx"
+              placeholder="Phone"
+              required
+          /></label>
+
+          <label class="leave-an-application__form__label" for="user-comment">
+            <textarea
+              class="leave-an-application__form__input textarea"
+              type="text"
+              name="user-comment"
+              id="user-comment"
+              placeholder="Comment"
+            ></textarea>
+          </label>
+        </div>
+
+        <div class="leave-an-application__radio-wrapper">
+          <p class="leave-an-application__radio__title">Choose a teacher</p>
+          <div class="leave-an-application__radios">
+            <label class="leave-an-application__radio__label" for="teacher-1">
+              <input
+                class="leave-an-application__radio__input visually-hidden"
+                type="radio"
+                name="teacher"
+                value="Maria"
+                id="teacher-1"
+                checked
+              />
+              <p class="leave-an-application__radio-label-title">Maria</p>
+              <span class="leave-an-application__radio__icon-wrapper">
+                <svg
+                  width="24"
+                  height="24"
+                  class="leave-an-application__radio__icon"
+                >
+                  <use href="./img/icons.svg#icon-click"></use>
+                </svg>
+              </span>
+            </label>
+
+            <label class="leave-an-application__radio__label" for="teacher-2">
+              <input
+                class="leave-an-application__radio__input visually-hidden"
+                type="radio"
+                name="teacher"
+                value="Artem"
+                id="teacher-2"
+              />
+              <p class="leave-an-application__radio-label-title">Artem</p>
+              <span class="leave-an-application__radio__icon-wrapper">
+                <svg
+                  width="24"
+                  height="24"
+                  class="leave-an-application__radio__icon"
+                >
+                  <use href="./img/icons.svg#icon-click"></use>
+                </svg>
+              </span>
+            </label>
+
+            <label class="leave-an-application__radio__label" for="teacher-3">
+              <input
+                class="leave-an-application__radio__input visually-hidden"
+                type="radio"
+                name="teacher"
+                value="Ilona"
+                id="teacher-3"
+              />
+              <p class="leave-an-application__radio-label-title">Ilona</p>
+              <span class="leave-an-application__radio__icon-wrapper">
+                <svg
+                  width="24"
+                  height="24"
+                  class="leave-an-application__radio__icon"
+                >
+                  <use href="./img/icons.svg#icon-click"></use>
+                </svg>
+              </span>
+            </label>
+
+            <label class="leave-an-application__radio__label" for="teacher-4">
+              <input
+                class="leave-an-application__radio__input visually-hidden"
+                type="radio"
+                name="teacher"
+                value="Volodymyr"
+                id="teacher-4"
+              />
+              <p class="leave-an-application__radio-label-title">Volodymyr</p>
+              <span class="leave-an-application__radio__icon-wrapper">
+                <svg
+                  width="24"
+                  height="24"
+                  class="leave-an-application__radio__icon"
+                >
+                  <use href="./img/icons.svg#icon-click"></use>
+                </svg>
+              </span>
+            </label>
+          </div>
+        </div>
+
+        <button type="submit" class="leave-an-application__form__btn">
+          <span class="leave-an-application__form__btn-text">Send</span>
+        </button>
+        <p class="leave-an-appliation__privacy-policy__text">
+          By clicking on “Send” button, you agree to our
+          <a
+            href=""
+            class="leave-an-appliation__privacy-policy__link"
+            target="_blank"
+            >Privacy Policy</a
+          >
+          , and allow Promodo to use this information for marketing purposes.
+        </p>
+      </form>
+    </div>
+  </div>
+</section>

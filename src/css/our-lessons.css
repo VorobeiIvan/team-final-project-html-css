@@ -1,0 +1,97 @@
+
+.our-lessons-title {
+  color: var(--black-color);
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  line-height: 36px; /* 112.5% */
+  letter-spacing: -0.64px;
+  padding-bottom: 16px;
+}
+
+.our-lessons-text {
+  padding-bottom: 40px;
+}
+
+.our-lessons-list {
+  display: flex;
+  gap: 20px;
+  /*justify-content: center;*/
+  /*flex-direction: column;*/
+  flex-wrap: wrap;
+  /*width: fit-content;*/
+  margin: auto;
+}
+
+.our-lessons-card-tile {
+  color: var(--black-color);
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 120% */
+  letter-spacing: -0.4px;
+  padding-bottom: 16px;
+}
+
+.our-lessons-card-price-text {
+  color: var(--black-color);
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px; /* 137.5% */
+  letter-spacing: -0.64px;
+  padding-bottom: 40px;
+}
+
+.our-lessons-item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--green-color);
+  border-radius: var(--border-radius-cards-mobile);
+  padding: 40px 20px;
+  background-color: var(--white-color);
+  min-height: 400px;
+  max-width: 336px;
+}
+
+.our-lessons-item-active {
+  background-color: var(--green-color);
+}
+
+.our-lessons-item-active .our-lessons-card-tile, .our-lessons-item-active .our-lessons-card-price-text {
+  color: var(--white-color);
+}
+
+.our-lessons-item-active .our-lessons-card-text {
+  color: rgba(255, 255, 255, 0.70);
+}
+
+.our-lessons-item-active .our-lessons-link {
+  border: 1px solid rgba(255, 255, 255, 0.40);
+}
+
+.our-lessons-link {
+  display: block;
+  text-align: center;
+  color: var(--white-color);
+  padding: 14px;
+  background-color: var(--green-color);
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: var(--border-radius-buttons);
+  line-height: 24px; /* 171.429% */
+  margin-top: auto;
+}
+
+.our-lessons-card-text, .our-lessons-text {
+  color: var(--grey-text-color);
+  text-align: center;
+  font-style: normal;
+  line-height: 24px; /* 171.429% */
+}
+
+.our-lessons-card-text {
+  padding-bottom: 20px;
+}

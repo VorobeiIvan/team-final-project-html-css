@@ -12,6 +12,7 @@
 @import url('./header.css');
 @import url('./our-lessons.css');
 @import url('./leave-an-application.css');
+@import url('./reviews.css');
 
 :root {
   font-family: 'Manrope', sans-serif;

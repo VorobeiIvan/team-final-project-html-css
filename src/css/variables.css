@@ -1,0 +1,11 @@
+:root {
+    --color-title-black: #121417;
+    --color-main-tex-black-50:rgba(18, 20, 23, 0.50);
+    --color-border-black-10:rgba(18, 20, 23, 0.10);;
+    --color-primary-brand-green: #4DC274;
+    --color-accent-green:#BEE8CC;
+    --color-green-linear: linear-gradient(80deg, #4DC274 0%, #BEE8CC 100%);
+    --color-light-green: #D4FDE1;
+    --color-gray: #F3F5F6;
+    --color-white: #FFF;
+}

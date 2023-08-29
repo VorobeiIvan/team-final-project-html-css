@@ -7,5 +7,14 @@
     --color-green-linear: linear-gradient(80deg, #4DC274 0%, #BEE8CC 100%);
     --color-light-green: #D4FDE1;
     --color-gray: #F3F5F6;
-    --color-white: #FFF;
+    --color-white: #ffffff;
+
+    /*border-radius*/
+    --border-radius-buttons: 12px;
+    --border-radius-cards-mobile: 16px;
+    --border-radius-cards: 30px;
+
+    /*media width*/
+    --tablet-width: 768px;
+    --desktop-width: 1280px;
 }

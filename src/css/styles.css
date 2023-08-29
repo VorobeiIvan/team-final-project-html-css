@@ -6,7 +6,6 @@
 */
 @import url('./variables.css');
 @import url('./reset.css');
-@import url('./vite-promo.css');
 @import url('./header.css');
 @import url('./our-lessons.css');
 
@@ -17,10 +16,6 @@
   font-weight: 400;
 
   color: rgba(18, 20, 23, 0.50);
-  --green-color: #4DC274;
-  --white-color: #FFFFFF;
-  --grey-text-color: rgba(18, 20, 23, 0.50);
-  --black-color: #121417;
   background-color: #ffffff;
 
   font-synthesis: none;
@@ -29,8 +24,4 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 
-  /*border-radius*/
-  --border-radius-buttons: 12px;
-  --border-radius-cards-mobile: 16px;
-  --border-radius-cards: 30px;
 }

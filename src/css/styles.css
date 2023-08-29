@@ -4,7 +4,7 @@
   | default @import url()
   |============================
 */
-@import url('/src/css/variables');
+@import url('./variables.css');
 @import url('./reset.css');
 @import url('./vite-promo.css');
 @import url('./header.css');
@@ -16,7 +16,7 @@
   font-weight: 400;
 
   color: rgba(18, 20, 23, 0.50);
-  background-color: ffffff;
+  background-color: #ffffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

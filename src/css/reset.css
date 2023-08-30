@@ -13,7 +13,8 @@ p:last-child {
   margin-bottom: 0;
 }
 
-ul, ol {
+ul,
+ol {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -32,4 +33,20 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+form {
+  margin: 0;
+  padding: 0;
+}
+
+textarea {
+  resize: none;
+}
+
+input,
+textarea,
+button {
+  font-family: inherit;
+  line-height: inherit;
 }

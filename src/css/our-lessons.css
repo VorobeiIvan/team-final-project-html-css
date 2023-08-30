@@ -20,6 +20,7 @@
   }
 }
 
+
 .our-lessons-title-pseudo {
   position: relative;
   display: inline-block;
@@ -67,6 +68,13 @@
 @media screen and (min-width: 768px) {
   .our-lessons-list {
     gap: 32px;
+    justify-content: normal;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .our-lessons-list {
+    justify-content: center;
   }
 }
 
@@ -99,7 +107,7 @@
   border-radius: var(--border-radius-cards-mobile);
   padding: 40px 20px;
   background-color: var(--color-white);
-  max-height: 404px;
+  min-height: 404px;
   max-width: 335px;
 }
 
@@ -159,7 +167,7 @@
   font-weight: 700;
   line-height: 24px; /* 171.429% */
   margin-top: auto;
-  transition: all 0.3s linear;
+  transition: all var(--transition-main);
 }
 
 @media screen and (min-width: 768px) {

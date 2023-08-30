@@ -233,14 +233,13 @@
   }
 }
 
-@media screen and (min-width: 1280px) {
-  .leave-an-application__form__input {
-  }
+.leave-an-application__form__input:focus {
+  border: 1px solid var(--color-primary-brand-green, #4dc274);
+  outline: transparent;
 }
 
 .textarea {
   padding: 16px 18px;
-  resize: none;
   min-height: 94px;
 }
 
@@ -312,12 +311,13 @@
 }
 
 .leave-an-application__radio__input {
+  transition: border-color var(--transition-main), fill var(--transition-main);
 }
 
 .leave-an-application__radio__input:checked
   + .leave-an-application__radio__label
   > .leave-an-application__radio__icon-wrapper {
-  border-color: var(--color-primary-brand-green, #4dc274);
+  border: none;
 }
 
 .leave-an-application__radio__input:checked
@@ -325,6 +325,7 @@
   > .leave-an-application__radio__icon-wrapper
   > .leave-an-application__radio__icon {
   fill: var(--color-primary-brand-green, #4dc274);
+  stroke: var(--color-primary-brand-green, #4dc274);
 }
 
 .leave-an-application__radio__label {
@@ -394,9 +395,13 @@
 
   border-radius: 12px;
   background: var(--color-primary-brand-green, #4dc274);
+  /* border: 1px solid transparent; */
   border: none;
   margin-bottom: 16px;
   width: 100%;
+
+  transition: background-color var(--transition-main),
+    border-color var(--transition-main);
 }
 
 @media screen and (min-width: 768px) {
@@ -405,6 +410,17 @@
     justify-content: center;
     align-items: center;
   }
+}
+
+.leave-an-application__form__btn:disabled {
+  background: var(--color-light-green, #d4fde1);
+}
+
+.leave-an-application__form__btn:hover,
+.leave-an-application__form__btn:focus {
+  background-color: var(--color-secondary-brand-green, #38ae5f);
+  /* border: 1px solid var(--color-primary-brand-green, #4dc274); */
+  outline: transparent;
 }
 
 .leave-an-application__form__btn-text {
@@ -421,6 +437,11 @@
     line-height: 1.56; /* 155.556% */
   }
 }
+
+/* .leave-an-application__form__btn:hover .leave-an-application__form__btn-text,
+.leave-an-application__form__btn:focus .leave-an-application__form__btn-text {
+  color: var(--color-primary-brand-green, #4dc274);
+} */
 
 .leave-an-appliation__privacy-policy__text {
   color: rgba(18, 20, 23, 0.5);

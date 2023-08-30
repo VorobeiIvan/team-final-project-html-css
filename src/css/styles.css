@@ -18,6 +18,7 @@
 @import url('./our-lessons.css');
 @import url('./our-teachers.css');
 @import url('./leave-an-application.css');
+@import url('./proposal-to-leave.css');
 @import url('./reviews.css');
 
 :root {
@@ -34,4 +35,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
 }

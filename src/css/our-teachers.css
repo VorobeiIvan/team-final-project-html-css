@@ -6,19 +6,62 @@
   font-style: normal;
   line-height: 1.125;
   letter-spacing: -0.64px;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
+
+  position: relative;
+}
+
+.teachers-title-pseudo {
+  position: relative;
+  display: inline-block;
+}
+
+.teachers-title-pseudo.pseudo:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  width: 139px;
+  height: 12px;
+  border-radius: 8px;
+  background-color: var(--color-accent-green);
 }
 
 .teachers-text {
   color: var(--color-main-tex-black-50);
   font-family: Manrope, serif;
+  font-size: 14px;
   text-align: center;
   font-style: normal;
   line-height: 24px;
-  padding-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .teachers-list {
   display: flex;
   flex-direction: column;
+  gap: 40px;
+}
+
+@media screen and (min-width: var(--tablet-width)) {
+  .teachers-text {
+    font-size: 18px;
+  }
+
+  .teachers-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+}
+
+@media screen and (min-width: var(--desktop-width)) {
+  .teachers-text {
+    font-size: 18px;
+  }
+
+  .teachers-list {
+    flex-direction: row;
+    gap: 32px;
+  }
 }

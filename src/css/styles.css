@@ -13,6 +13,7 @@
 @import url('./our-lessons.css');
 @import url('./our-teachers.css');
 @import url('./leave-an-application.css');
+@import url('./proposal-to-leave.css');
 
 :root {
   font-family: 'Manrope', sans-serif;
@@ -28,4 +29,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
 }

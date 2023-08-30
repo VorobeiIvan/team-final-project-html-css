@@ -1,13 +1,9 @@
 /* Leave an application styles */
 
-.section {
-}
 .leave-an-application {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-.container {
 }
 
 .leave-an-application__head-wrapper {
@@ -53,6 +49,23 @@
   }
 }
 
+.leave-an-appliacation__head-title-pseudo {
+  position: relative;
+  display: inline-block;
+}
+
+.leave-an-appliacation__head-title-pseudo.pseudo::after {
+  transform: translateY(10%);
+  height: 40%;
+}
+
+@media screen and (min-width: 768px) {
+  .leave-an-appliacation__head-title-pseudo.pseudo::after {
+    transform: translateY(10%);
+    height: 50%;
+  }
+}
+
 .leave-an-application__head-text {
   color: rgba(18, 20, 23, 0.8);
   text-align: center;
@@ -83,6 +96,19 @@
 .leave-an-application__common-wrapper {
   display: flex;
   gap: 32px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .leave-an-application__common-wrapper {
+    padding: 0 102px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .leave-an-application__common-wrapper {
+    padding: 0 128px;
+  }
 }
 
 .leave-an-application__content-wrapper {
@@ -111,7 +137,7 @@
     height: 392px;
     background-color: var(--color-primary-brand-green, #4dc274);
 
-    background-image: url(../img/leave-an-application/leave-an-application.png);
+    background-image: url(../img/1x/leave-an-application.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -121,15 +147,9 @@
 @media (min-width: 1280px) and (min-device-pixel-ratio: 2),
   (min-width: 1280px) and (min-resolution: 192dpi) {
   .leave-an-application__image-wrapper {
-    background-image: url(../img/leave-an-application/leave-an-application@2x.png);
+    background-image: url(../img/2x/leave-an-application@2x.png);
   }
 }
-
-/* .leave-an-application__image {
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-} */
 
 .leave-an-application__content {
   display: flex;
@@ -158,6 +178,18 @@
 .leave-an-application__form {
   display: flex;
   flex-direction: column;
+  width: 100%;
+}
+
+@media screen and (min-width: 375px) {
+  .leave-an-application__form {
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279) {
+  .leave-an-application__form {
+    padding: 0 102px;
+  }
 }
 
 .leave-an-application__inputs-wrapper {
@@ -209,6 +241,13 @@
 .textarea {
   padding: 16px 18px;
   resize: none;
+  min-height: 94px;
+}
+
+@media screen and (min-width: 768px) {
+  .textarea {
+    min-height: 104px;
+  }
 }
 
 .leave-an-application__form__input::placeholder {
@@ -275,7 +314,17 @@
 .leave-an-application__radio__input {
 }
 
-.visually-hidden {
+.leave-an-application__radio__input:checked
+  + .leave-an-application__radio__label
+  > .leave-an-application__radio__icon-wrapper {
+  border-color: var(--color-primary-brand-green, #4dc274);
+}
+
+.leave-an-application__radio__input:checked
+  + .leave-an-application__radio__label
+  > .leave-an-application__radio__icon-wrapper
+  > .leave-an-application__radio__icon {
+  fill: var(--color-primary-brand-green, #4dc274);
 }
 
 .leave-an-application__radio__label {
@@ -301,13 +350,45 @@
 }
 
 .leave-an-application__radio__icon-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 10px;
+  border: 2px solid rgba(18, 20, 23, 0.2);
+  fill: transparent;
+
+  margin-right: 9px;
 }
+
+@media screen and (min-width: 768px) {
+  .leave-an-application__radio__icon-wrapper {
+    width: 20px;
+    height: 20px;
+
+    margin-right: 8px;
+  }
+}
+
 .leave-an-application__radio__icon {
+  fill: transparent;
+  cursor: pointer;
+
+  width: 18px;
+  height: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .leave-an-application__radio__icon {
+    width: 20px;
+    height: 20px;
+  }
 }
 
 .leave-an-application__form__btn {
   display: inline-flex;
-  padding: 14px 150px;
+  padding: 14px 0;
   justify-content: center;
   align-items: center;
 
@@ -315,11 +396,12 @@
   background: var(--color-primary-brand-green, #4dc274);
   border: none;
   margin-bottom: 16px;
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
   .leave-an-application__form__btn {
-    padding: 16px 228px;
+    padding: 16px 0;
     justify-content: center;
     align-items: center;
   }

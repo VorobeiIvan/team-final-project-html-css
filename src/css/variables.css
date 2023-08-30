@@ -14,4 +14,7 @@
   --border-radius-buttons: 12px;
   --border-radius-cards-mobile: 16px;
   --border-radius-cards: 30px;
+
+  /* transition */
+  --transition-main: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

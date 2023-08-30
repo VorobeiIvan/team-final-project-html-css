@@ -1,0 +1,59 @@
+.about-us-title {
+    font-family: Manrope, serif;
+    color: var(--color-title-black);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.12;
+    letter-spacing: -0.02em;
+    text-align: center;
+    padding-bottom: 16px;
+    position: relative;
+}
+
+.about-us-title-pseudo {
+    position: relative;
+    display: inline-block;
+}
+
+.about-us-title-pseudo.pseudo:after {
+    transform: translateY(10%);
+    height: 40%;
+}
+
+.about-us-list {
+    counter-reset: item;
+}
+
+.about-us-item::before {
+    content: counter(item, decimal-leading-zero);
+    counter-increment: item;
+    margin-right: 5px;
+    color: var(--color-primary-brand-green);
+    font-weight: 700;
+}
+
+.about-us-background-color {
+    display: block;
+    max-width: 335px;
+    padding: 51px 40px 51px 41px;
+    background-color: var(--color-primary-brand-green);
+    border-radius: 16px;
+}
+
+.about-us-emoji {
+    height: 211px;
+    background-image: url(../img/1x/about-us-emoji@1x.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+}
+
+@media screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx),
+screen and (-webkit-min-device-pixel-ratio: 2),
+screen and (min-device-pixel-ratio: 2) {
+    .about-us-emoji {
+        background-image: url(../img/2x/about-us-emoji@2x.png);
+    }
+}

@@ -271,7 +271,7 @@
   }
 
   .logo {
-    padding-left: 64px;
+
     color: var(--color-primary-brand-green, #4dc274);
     font-size: 20px;
     font-weight: 700;
@@ -300,7 +300,7 @@
   }
 
   .social-media-list {
-    padding-right: 64px;
+
     display: flex;
     gap: 12px;
 

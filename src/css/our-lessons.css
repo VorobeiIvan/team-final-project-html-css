@@ -160,7 +160,7 @@
   font-weight: 700;
   line-height: 24px; /* 171.429% */
   margin-top: auto;
-  transition: all 0.3s linear;
+  transition: all var(--transition-main);
 }
 
 @media screen and (min-width: 768px) {

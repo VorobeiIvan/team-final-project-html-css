@@ -19,7 +19,7 @@
   }
 
   .dark-logo {
-    color: var(---color-title-black, #121417);
+    color: var(--color-title-black, #121417);
   }
 
   .burger-menu-btn {
@@ -31,7 +31,7 @@
   }
 
   .burger-icon {
-    stroke: var(---color-title-black, #121417);
+    stroke: var(--color-title-black, #121417);
   }
 
   .menu-container {
@@ -129,7 +129,7 @@
   .burger-icon {
     width: 40px;
     height: 28px;
-    stroke: var(---color-title-black, #121417);
+    stroke: var(--color-title-black, #121417);
   }
 
   .header-nav,
@@ -154,7 +154,7 @@
   }
 
   .dark-logo {
-    color: var(---color-title-black, #121417);
+    color: var(--color-title-black, #121417);
   }
 
   .burger-menu-btn {
@@ -307,7 +307,7 @@
   }
 
   .social-media-icon {
-    fill: var(---color-title-black, #121417);
+    fill: var(--color-title-black, #121417);
   }
 
   .social-media-link {

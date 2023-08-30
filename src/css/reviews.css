@@ -1,0 +1,138 @@
+.reviews-title-section {
+  color: var(--color-title-black, #121417);
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.13; /* 112.5% */
+  letter-spacing: -0.02em; /*-0.64px*/
+  padding-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .reviews-title-section {
+    font-size: 40px;
+    line-height: 1.2; /* 120% */
+    letter-spacing: -0.02em; /*-0.8px*/
+  }
+}
+
+.reviews-section-text {
+  color: rgba(18, 20, 23, 0.5);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px; /* 171.429%  */
+  padding-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .reviews-section-text {
+    font-size: 18px;
+    line-height: 1.67; /* 166.667% */
+    padding-bottom: 64px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .reviews-section-text {
+    max-width: 647px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.reviews-section-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .reviews-section-list {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+.reviews-section-item {
+  max-width: 335px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-gray);
+  border-radius: 16px;
+  padding-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .reviews-section-item {
+    width: 336px;
+    border-radius: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .reviews-section-item {
+    width: 320px;
+    border-radius: 30px;
+  }
+}
+.reviews-section-card-container {
+  height: 78px;
+  display: flex;
+  gap: 8px;
+  padding: 14px 8px 14px 14px;
+  margin: 20px;
+  background-color: var(--color-primary-brand-green);
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .reviews-section-card-container {
+    padding-left: 16px;
+    margin: 32px 16px;
+    border-radius: 15px;
+  }
+}
+
+.reviews-section-card-img {
+  border-radius: 50%;
+}
+
+.review-section-card-person {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2px;
+}
+
+.reviews-section-card-name {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2; /* 120% */
+  letter-spacing: -0.4px;
+}
+
+.reviews-section-card-category {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.33; /* 133.333% */
+}
+
+.reviews-section-card-text {
+  color: rgba(18, 20, 23, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71; /* 171.429% */
+  margin: 0 34px;
+}
+
+@media screen and (min-width: 768px) {
+  .reviews-section-card-text {
+    font-size: 16px;
+    line-height: 1.5; /* 150% */
+    margin: 0 32px;
+  }
+}

@@ -18,12 +18,14 @@
 @media screen and (min-width: 1280px) {
   .proposal-to-leave__container {
     padding: 64px;
+    padding-bottom: 140px;
   }
 }
 
 .proposal-to-leave__title {
   font-size: 38px;
   line-height: 1.05;
+  max-width: 776px;
   color: var(--color-white);
   margin-bottom: 65px;
 }
@@ -33,6 +35,15 @@
     font-size: 60px;
     line-height: 1.16;
     padding: 0 14px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .proposal-to-leave__title {
+    font-size: 60px;
+    line-height: 1.16;
+    padding: 0;
+    margin-bottom: 140px;
   }
 }
 
@@ -55,7 +66,7 @@
     background-image: url(../img/1x/books-@1x.png);
     background-position: right -40px bottom 55px;
     background-repeat: no-repeat;
-    background-size: 200px;
+    background-size: 210px;
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -64,6 +75,13 @@
     .benefits__wrapper {
       background-image: url(../img/2x/books-@2x.png);
     }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .benefits__wrapper {
+    padding: 64px;
+    background-position: right -40px bottom 85px;
   }
 }
 
@@ -117,6 +135,12 @@
   }
 }
 
+@media screen and (min-width: 1280px) {
+  .benefits__sub-title {
+    margin-bottom: 40px;
+  }
+}
+
 .benefit__list {
   margin-bottom: 20px;
 }
@@ -124,6 +148,14 @@
 @media screen and (min-width: 768px) {
   .benefit__list {
     max-width: 450px;
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .benefit__list {
+    max-width: 654px;
+    margin-bottom: 40px;
   }
 }
 

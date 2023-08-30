@@ -10,6 +10,7 @@
   padding-bottom: 16px;
   position: relative;
 }
+
 @media screen and (min-width: 768px) {
   .our-lessons-title {
     font-size: 40px;
@@ -130,6 +131,7 @@
   background-color: var(--color-white);
   border: 1px solid var(--color-primary-brand-green);
 }
+
 .our-lessons-card-text {
   padding-bottom: 20px;
   color: var(--color-main-tex-black-50);

@@ -1,7 +1,12 @@
 <section class="section leave-an-application">
   <div class="container">
     <div class="leave-an-application__head-wrapper">
-      <h2 class="leave-an-application__head-title">Leave an application</h2>
+      <h2 class="leave-an-application__head-title">
+        Leave an
+        <span class="leave-an-appliacation__head-title-pseudo pseudo"
+          >application</span
+        >
+      </h2>
       <p class="leave-an-application__head-text">
         Please use the form below to contact us. Enter your name, email, and
         message and we'll get back to you shortly.
@@ -10,19 +15,7 @@
 
     <div class="leave-an-application__common-wrapper">
       <div class="leave-an-application__content-wrapper">
-        <div class="leave-an-application__image-wrapper">
-          <!-- <img
-            class="leave-an-application__image"
-            srcset="
-              ./img/leave-an-application.jpg    1x,
-              ./img/leave-an-application@2x.jpg 2x
-            "
-            src="./img/leave-an-application.jpg"
-            alt="Girl has online class"
-            width="492"
-            height="392"
-          /> -->
-        </div>
+        <div class="leave-an-application__image-wrapper"></div>
         <div class="leave-an-application__content">
           <p class="leave-an-application__content__title">1000</p>
           <p class="leave-an-application__content__text">
@@ -86,85 +79,69 @@
         <div class="leave-an-application__radio-wrapper">
           <p class="leave-an-application__radio__title">Choose a teacher</p>
           <div class="leave-an-application__radios">
+            <input
+              class="leave-an-application__radio__input visually-hidden"
+              type="radio"
+              name="teacher"
+              value="Maria"
+              id="teacher-1"
+              checked
+            />
             <label class="leave-an-application__radio__label" for="teacher-1">
-              <input
-                class="leave-an-application__radio__input visually-hidden"
-                type="radio"
-                name="teacher"
-                value="Maria"
-                id="teacher-1"
-                checked
-              />
+              <span class="leave-an-application__radio__icon-wrapper">
+                <svg class="leave-an-application__radio__icon">
+                  <use href="../img/sprite.svg#icon-radio-checked"></use>
+                </svg>
+              </span>
               <p class="leave-an-application__radio-label-title">Maria</p>
-              <span class="leave-an-application__radio__icon-wrapper">
-                <svg
-                  width="24"
-                  height="24"
-                  class="leave-an-application__radio__icon"
-                >
-                  <use href="./img/icons.svg#icon-click"></use>
-                </svg>
-              </span>
             </label>
 
+            <input
+              class="leave-an-application__radio__input visually-hidden"
+              type="radio"
+              name="teacher"
+              value="Artem"
+              id="teacher-2"
+            />
             <label class="leave-an-application__radio__label" for="teacher-2">
-              <input
-                class="leave-an-application__radio__input visually-hidden"
-                type="radio"
-                name="teacher"
-                value="Artem"
-                id="teacher-2"
-              />
+              <span class="leave-an-application__radio__icon-wrapper">
+                <svg class="leave-an-application__radio__icon">
+                  <use href="../img/sprite.svg#icon-radio-checked"></use>
+                </svg>
+              </span>
               <p class="leave-an-application__radio-label-title">Artem</p>
-              <span class="leave-an-application__radio__icon-wrapper">
-                <svg
-                  width="24"
-                  height="24"
-                  class="leave-an-application__radio__icon"
-                >
-                  <use href="./img/icons.svg#icon-click"></use>
-                </svg>
-              </span>
             </label>
 
+            <input
+              class="leave-an-application__radio__input visually-hidden"
+              type="radio"
+              name="teacher"
+              value="Ilona"
+              id="teacher-3"
+            />
             <label class="leave-an-application__radio__label" for="teacher-3">
-              <input
-                class="leave-an-application__radio__input visually-hidden"
-                type="radio"
-                name="teacher"
-                value="Ilona"
-                id="teacher-3"
-              />
-              <p class="leave-an-application__radio-label-title">Ilona</p>
               <span class="leave-an-application__radio__icon-wrapper">
-                <svg
-                  width="24"
-                  height="24"
-                  class="leave-an-application__radio__icon"
-                >
-                  <use href="./img/icons.svg#icon-click"></use>
+                <svg class="leave-an-application__radio__icon">
+                  <use href="../img/sprite.svg#icon-radio-checked"></use>
                 </svg>
               </span>
+              <p class="leave-an-application__radio-label-title">Ilona</p>
             </label>
 
+            <input
+              class="leave-an-application__radio__input visually-hidden"
+              type="radio"
+              name="teacher"
+              value="Volodymyr"
+              id="teacher-4"
+            />
             <label class="leave-an-application__radio__label" for="teacher-4">
-              <input
-                class="leave-an-application__radio__input visually-hidden"
-                type="radio"
-                name="teacher"
-                value="Volodymyr"
-                id="teacher-4"
-              />
-              <p class="leave-an-application__radio-label-title">Volodymyr</p>
               <span class="leave-an-application__radio__icon-wrapper">
-                <svg
-                  width="24"
-                  height="24"
-                  class="leave-an-application__radio__icon"
-                >
-                  <use href="./img/icons.svg#icon-click"></use>
+                <svg class="leave-an-application__radio__icon">
+                  <use href="../img/sprite.svg#icon-radio-checked"></use>
                 </svg>
               </span>
+              <p class="leave-an-application__radio-label-title">Volodymyr</p>
             </label>
           </div>
         </div>

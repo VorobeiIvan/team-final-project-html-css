@@ -13,8 +13,4 @@
     --border-radius-buttons: 12px;
     --border-radius-cards-mobile: 16px;
     --border-radius-cards: 30px;
-
-    /*media width*/
-    --tablet-width: 768px;
-    --desktop-width: 1280px;
 }

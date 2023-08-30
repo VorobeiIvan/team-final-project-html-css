@@ -47,7 +47,7 @@
     background-color: rgba(18, 20, 23, 0.4);
 
     transform: translateX(100%);
-    transition: transform 250ms ease-in-out;
+    transition: var(--transition-main);
   }
 
   .menu-container.is-open {
@@ -99,7 +99,7 @@
   }
 
   .nav-burger-menu-link {
-    color: #fff;
+    color: var(--color-white);
     font-size: 14px;
     font-weight: 600;
     line-height: 1.29;
@@ -112,17 +112,17 @@
   }
 
   .burger-social-media-icon {
-    fill: #fff;
+    fill: var(--color-white);
     stroke: none;
   }
 
   .burger-social-media-link {
     display: flex;
-    padding: 8px;
+    padding: 7px;
     align-items: center;
     gap: 8px;
     border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid var(--color-border-black-10);
   }
 }
 
@@ -135,7 +135,7 @@
   .burger-icon {
     width: 40px;
     height: 28px;
-    stroke: #121417;
+    stroke: var(---color-title-black, #121417);
   }
 
   .header-nav,
@@ -150,7 +150,7 @@
   }
 
   .logo {
-    color: #4dc274;
+    color: var(--color-primary-brand-green, #4dc274);
     font-family: Manrope;
     font-size: 20px;
     font-style: normal;
@@ -159,7 +159,7 @@
   }
 
   .dark-logo {
-    color: #121417;
+    color: var(---color-title-black, #121417);
   }
 
   .burger-menu-btn {
@@ -180,7 +180,7 @@
     background-color: rgba(18, 20, 23, 0.4);
 
     transform: translateX(100%);
-    transition: transform 250ms ease-in-out;
+    transition: var(--transition-main);
   }
 
   .menu-container.is-open {
@@ -195,9 +195,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #4dc274;
+    background-color: var(--color-primary-brand-green, #4dc274);
     width: 348px;
-    height: 1000px;
+    min-height: 1000px;
   }
 
   .close-btn {
@@ -235,7 +235,7 @@
   }
 
   .nav-burger-menu-link {
-    color: #fff;
+    color: var(--color-white);
     font-size: 14px;
     font-weight: 600;
     line-height: 1.29;
@@ -251,7 +251,7 @@
     width: 28px;
     height: 28px;
 
-    fill: #fff;
+    fill: var(--color-white);
     stroke: none;
   }
 
@@ -279,16 +279,14 @@
 
   .logo {
     margin-left: 64px;
-    color: #4dc274;
-    font-family: Manrope;
+    color: var(--color-primary-brand-green, #4dc274);
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
+
   }
 
   .dark-logo {
-    color: #121417;
+    color: var(--color-title-black);
   }
 
   .burger-menu-btn,
@@ -315,7 +313,7 @@
   }
 
   .social-media-icon {
-    fill: #121417;
+    fill: var(---color-title-black, #121417);
   }
 
   .social-media-link {
@@ -325,18 +323,19 @@
     gap: 8px;
 
     border-radius: 10px;
-    border: 1px solid rgba(18, 20, 23, 0.1);
+    border: 1px solid var(--color-border-black-10, rgba(18, 20, 23, 0.1));
   }
 
   .social-media-link:hover>.social-media-icon,
   .social-media-link:focus>.social-media-icon {
-    fill: #4dc274;
+    fill: var(--color-primary-brand-green, #4dc274);
   }
 
   .header-nav-link.active,
   .header-nav-link:hover,
   .header-nav-link:focus {
     position: relative;
+    transition: var(--transition-main);
   }
 
   .header-nav-link:hover::after,
@@ -348,6 +347,7 @@
     bottom: -4px;
     height: 2px;
     width: 37px;
-    background-color: #4dc274;
+    background-color: var(--color-primary-brand-green, #4dc274);
+    transition: var(--transition-main);
   }
 }

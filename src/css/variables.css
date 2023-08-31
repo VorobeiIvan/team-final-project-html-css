@@ -10,6 +10,8 @@
   --color-gray: #f3f5f6;
   --color-white: #ffffff;
   --color-white-50: rgba(255, 255, 255, 0.5);
+  --color-white-60: rgba(255, 255, 255, 0.6);
+  --color-white-10: rgba(255, 255, 255, 0.1);
   --color-invalid: #ee323d;
 
   /*border-radius*/

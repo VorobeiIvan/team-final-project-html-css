@@ -57,6 +57,9 @@
   border-radius: 16px;
   color: var(--color-title-black);
   background: var(--color-white);
+  -webkit-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
 
@@ -208,7 +211,7 @@
 }
 
 .proposal-to-leave__button:hover {
-  background: var(--color-green-hover);
+  background: var(--color-secondary-brand-green);
 }
 
 @media screen and (min-width: 768px) {

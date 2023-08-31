@@ -6,7 +6,7 @@
   justify-content: center;
 }
 
-.leave-an-application__head-wrapper {
+.leave-an-application-head-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,13 +15,13 @@
 }
 
 @media screen and (min-width: 768px) {
-  .leave-an-application__head-wrapper {
+  .leave-an-application-head-wrapper {
     gap: 16px;
     margin-bottom: 64px;
   }
 }
 
-.leave-an-application__head-title {
+.leave-an-application-head-title {
   color: var(--color-title-black, #121417);
   text-align: center;
   font-size: 32px;
@@ -31,12 +31,12 @@
 }
 
 @media screen and (min-width: 375px) {
-  .leave-an-application__head-title {
+  .leave-an-application-head-title {
   }
 }
 
 @media screen and (min-width: 768px) {
-  .leave-an-application__head-title {
+  .leave-an-application-head-title {
     font-size: 40px;
     font-weight: 700;
     line-height: 1.2; /* 120% */
@@ -44,24 +44,24 @@
   }
 }
 
-.leave-an-appliacation__head-title-pseudo {
+.leave-an-appliacation-head-title-pseudo {
   position: relative;
   display: inline-block;
 }
 
-.leave-an-appliacation__head-title-pseudo.pseudo::after {
+.leave-an-appliacation-head-title-pseudo.pseudo::after {
   transform: translateY(10%);
   height: 40%;
 }
 
 @media screen and (min-width: 768px) {
-  .leave-an-appliacation__head-title-pseudo.pseudo::after {
+  .leave-an-appliacation-head-title-pseudo.pseudo::after {
     transform: translateY(10%);
     height: 50%;
   }
 }
 
-.leave-an-application__head-text {
+.leave-an-application-head-text {
   color: rgba(18, 20, 23, 0.8);
   text-align: center;
   font-size: 14px;
@@ -70,12 +70,12 @@
 }
 
 @media screen and (min-width: 375px) {
-  .leave-an-application__head-text {
+  .leave-an-application-head-text {
   }
 }
 
 @media screen and (min-width: 768px) {
-  .leave-an-application__head-text {
+  .leave-an-application-head-text {
     font-size: 18px;
     line-height: 1.67; /* 166.667% */
     max-width: 586px;
@@ -83,24 +83,24 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .leave-an-application__head-text {
+  .leave-an-application-head-text {
     max-width: 709px;
   }
 }
 
-.leave-an-application__common-wrapper {
+.leave-an-application-common-wrapper {
   display: flex;
   gap: 32px;
   width: 100%;
   justify-content: center;
 }
 
-.leave-an-application__content-wrapper {
+.leave-an-application-content-wrapper {
   display: none;
 }
 
 @media screen and (min-width: 1280px) {
-  .leave-an-application__content-wrapper {
+  .leave-an-application-content-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -113,7 +113,7 @@
 }
 
 @media (min-width: 1280px) {
-  .leave-an-application__image-wrapper {
+  .leave-an-application-image-wrapper {
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     overflow: hidden;
@@ -121,7 +121,7 @@
     height: 392px;
     background-color: var(--color-primary-brand-green, #4dc274);
 
-    background-image: url(../img/1x/leave-an-application.png);
+    background-image: url(../img/1x/leave-an-application.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -130,12 +130,12 @@
 
 @media (min-width: 1280px) and (min-device-pixel-ratio: 2),
   (min-width: 1280px) and (min-resolution: 192dpi) {
-  .leave-an-application__image-wrapper {
-    background-image: url(../img/2x/leave-an-application@2x.png);
+  .leave-an-application-image-wrapper {
+    background-image: url(../img/2x/leave-an-application@2x.webp);
   }
 }
 
-.leave-an-application__content {
+.leave-an-application-content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -143,7 +143,7 @@
   max-width: 452px;
 }
 
-.leave-an-application__content__title {
+.leave-an-application-content-title {
   color: var(--color-white, #fff);
   text-align: center;
   font-size: 40px;
@@ -152,31 +152,31 @@
   letter-spacing: -0.02em; /*-0.8px*/
 }
 
-.leave-an-application__content__text {
+.leave-an-application-content-text {
   color: rgba(255, 255, 255, 0.7);
   text-align: center;
   font-size: 16px;
   line-height: 1.5; /* 150% */
 }
 
-.leave-an-application__form {
+.leave-an-application-form {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
 
 @media screen and (min-width: 375px) {
-  .leave-an-application__form {
+  .leave-an-application-form {
   }
 }
 
 @media screen and (min-width: 768px) {
-  .leave-an-application__form {
+  .leave-an-application-form {
     width: 500px;
   }
 }
 
-.leave-an-application__inputs-wrapper {
+.leave-an-application-inputs-wrapper {
   display: flex;
   flex-direction: column;
   gap: 18px;
@@ -184,26 +184,26 @@
 }
 
 @media screen and (min-width: 768px) {
-  .leave-an-application__inputs-wrapper {
+  .leave-an-application-inputs-wrapper {
     margin-bottom: 32px;
   }
 }
 
-.leave-an-application__form__label {
+.leave-an-application-form-label {
 }
 
-.leave-an-applicatiom__form__input-wrapper {
+.leave-an-applicatiom-form-input-wrapper {
   position: relative;
 }
 
-.leave-an-application__form__input {
+.leave-an-application-form-input {
   width: 100%;
   min-height: 50px;
   border-radius: 12px;
   border: 1px solid rgba(18, 20, 23, 0.1);
 
   background-color: transparent;
-  /* outline: transparent; */
+  outline-offset: 4px;
 
   transition: border-color var(--transition-main);
 
@@ -211,22 +211,21 @@
 }
 
 @media screen and (min-width: 375px) {
-  .leave-an-application__form__input {
+  .leave-an-application-form-input {
   }
 }
 
 @media screen and (min-width: 768px) {
-  .leave-an-application__form__input {
+  .leave-an-application-form-input {
     min-height: 56px;
   }
 }
 
-.leave-an-application__form__input:focus:required:invalid {
+.leave-an-application-form-input:focus:required:invalid {
   border: 1px solid var(--color-invalid, #ee323d);
-  /* outline: transparent; */
 }
 
-.leave-an-application__form__input:focus:required:invalid
+.leave-an-application-form-input:focus:required:invalid
   + .validity-icon::after {
   display: flex;
   position: absolute;
@@ -236,12 +235,11 @@
   color: var(--color-invalid, #ee323d);
 }
 
-.leave-an-application__form__input:valid {
+.leave-an-application-form-input:valid {
   border: 1px solid rgba(18, 20, 23, 0.1);
-  /* outline: transparent; */
 }
 
-.leave-an-application__form__input:valid + .validity-icon::after {
+.leave-an-application-form-input:valid + .validity-icon::after {
   display: flex;
   position: absolute;
   content: '✓';
@@ -250,9 +248,8 @@
   color: var(--color-primary-brand-green, #4dc274);
 }
 
-.leave-an-application__form__input:focus {
+.leave-an-application-form-input:focus {
   border: 1px solid var(--color-primary-brand-green, #4dc274);
-  /* outline: transparent; */
 }
 
 .textarea {
@@ -266,37 +263,37 @@
   }
 }
 
-.leave-an-application__form__input::placeholder {
+.leave-an-application-form-input::placeholder {
   color: var(--color-title-black, #121417);
   font-size: 14px;
   line-height: 1.29; /* 128.571% */
 }
 
 @media screen and (min-width: 375px) {
-  .leave-an-application__form__input::placeholder {
+  .leave-an-application-form-input::placeholder {
   }
 }
 
 @media screen and (min-width: 768px) {
-  .leave-an-application__form__input::placeholder {
+  .leave-an-application-form-input::placeholder {
     font-size: 16px;
     line-height: 1.5; /* 150% */
   }
 }
 
-.leave-an-application__radio-wrapper {
+.leave-an-application-radio-wrapper {
   display: flex;
   flex-direction: column;
   gap: 14px;
 }
 
 @media screen and (min-width: 768px) {
-  .leave-an-application__radio-wrapper {
+  .leave-an-application-radio-wrapper {
     gap: 16px;
   }
 }
 
-.leave-an-application__radio__title {
+.leave-an-application-radio-title {
   color: var(--color-title-black, #121417);
   font-size: 18px;
   font-weight: 600;
@@ -305,14 +302,14 @@
 }
 
 @media screen and (min-width: 768px) {
-  .leave-an-application__radio__title {
+  .leave-an-application-radio-title {
     font-size: 20px;
     line-height: 1.2; /* 120% */
     letter-spacing: -0.02em; /*-0.4px*/
   }
 }
 
-.leave-an-application__radios {
+.leave-an-application-radios {
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -320,44 +317,44 @@
 }
 
 @media screen and (min-width: 768px) {
-  .leave-an-application__radios {
+  .leave-an-application-radios {
     flex-direction: row;
     gap: 16px;
     margin-bottom: 32px;
   }
 }
 
-.leave-an-application__radio__input {
+.leave-an-application-radio-input {
   transition: border-color var(--transition-main), fill var(--transition-main);
 }
 
-.leave-an-application__radio__input:focus
-  + .leave-an-application__radio__label
-  > .leave-an-application__radio__icon-wrapper {
+.leave-an-application-radio-input:focus
+  + .leave-an-application-radio-label
+  > .leave-an-application-radio-icon-wrapper {
   transform: scale(1.2);
 }
 
-.leave-an-application__radio__input:checked
-  + .leave-an-application__radio__label
-  > .leave-an-application__radio__icon-wrapper {
+.leave-an-application-radio-input:checked
+  + .leave-an-application-radio-label
+  > .leave-an-application-radio-icon-wrapper {
   border: none;
 }
 
-.leave-an-application__radio__input:checked
-  + .leave-an-application__radio__label
-  > .leave-an-application__radio__icon-wrapper
-  > .leave-an-application__radio__icon {
+.leave-an-application-radio-input:checked
+  + .leave-an-application-radio-label
+  > .leave-an-application-radio-icon-wrapper
+  > .leave-an-application-radio-icon {
   fill: var(--color-primary-brand-green, #4dc274);
   stroke: var(--color-primary-brand-green, #4dc274);
 }
 
-.leave-an-application__radio__label {
+.leave-an-application-radio-label {
   display: flex;
   gap: 9px;
   align-items: center;
 }
 
-.leave-an-application__radio-label-title {
+.leave-an-application-radio-label-title {
   color: var(--color-title-black, #121417);
   text-align: center;
   font-size: 14px;
@@ -366,14 +363,14 @@
 }
 
 @media screen and (min-width: 768px) {
-  .leave-an-application__radio-label-title {
+  .leave-an-application-radio-label-title {
     font-size: 18px;
     line-height: 1.33; /* 133.333% */
     letter-spacing: -0.02em; /*-0.36px*/
   }
 }
 
-.leave-an-application__radio__icon-wrapper {
+.leave-an-application-radio-icon-wrapper {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -389,7 +386,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .leave-an-application__radio__icon-wrapper {
+  .leave-an-application-radio-icon-wrapper {
     width: 20px;
     height: 20px;
 
@@ -397,7 +394,7 @@
   }
 }
 
-.leave-an-application__radio__icon {
+.leave-an-application-radio-icon {
   fill: transparent;
   cursor: pointer;
 
@@ -406,13 +403,13 @@
 }
 
 @media screen and (min-width: 768px) {
-  .leave-an-application__radio__icon {
+  .leave-an-application-radio-icon {
     width: 20px;
     height: 20px;
   }
 }
 
-.leave-an-application__form__btn {
+.leave-an-application-form-btn {
   display: inline-flex;
   padding: 14px 0;
   justify-content: center;
@@ -429,24 +426,23 @@
 }
 
 @media screen and (min-width: 768px) {
-  .leave-an-application__form__btn {
+  .leave-an-application-form-btn {
     padding: 16px 0;
     justify-content: center;
     align-items: center;
   }
 }
 
-.leave-an-application__form__btn:disabled {
+.leave-an-application-form-btn:disabled {
   background: var(--color-light-green, #d4fde1);
 }
 
-.leave-an-application__form__btn:hover,
-.leave-an-application__form__btn:focus {
+.leave-an-application-form-btn:hover,
+.leave-an-application-form-btn:focus {
   background-color: var(--color-secondary-brand-green, #38ae5f);
-  /* outline: transparent; */
 }
 
-.leave-an-application__form__btn-text {
+.leave-an-application-form-btn-text {
   color: var(--color-white, #fff);
   font-size: 14px;
   font-weight: 700;
@@ -454,27 +450,27 @@
 }
 
 @media screen and (min-width: 768px) {
-  .leave-an-application__form__btn-text {
+  .leave-an-application-form-btn-text {
     font-size: 18px;
     font-style: normal;
     line-height: 1.56; /* 155.556% */
   }
 }
 
-.leave-an-appliation__privacy-policy__text {
+.leave-an-appliation-privacy-policy-text {
   color: rgba(18, 20, 23, 0.5);
   font-size: 12px;
   line-height: 1.33; /* 133.333% */
 }
 
 @media screen and (min-width: 768px) {
-  .leave-an-appliation__privacy-policy__text {
+  .leave-an-appliation-privacy-policy-text {
     font-size: 14px;
     line-height: 1.71; /* 171.429% */
   }
 }
 
-.leave-an-appliation__privacy-policy__link {
+.leave-an-appliation-privacy-policy-link {
   color: rgba(18, 20, 23, 0.5);
   font-size: 12px;
   line-height: 1.33;
@@ -482,7 +478,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .leave-an-appliation__privacy-policy__link {
+  .leave-an-appliation-privacy-policy-link {
     font-size: 14px;
     line-height: 1.71;
   }

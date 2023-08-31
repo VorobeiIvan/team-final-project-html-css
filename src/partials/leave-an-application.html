@@ -29,40 +29,44 @@
       <form class="leave-an-application__form">
         <div class="leave-an-application__inputs-wrapper">
           <label class="leave-an-application__form__label" for="user-name">
-            <input
-              class="leave-an-application__form__input"
-              type="text"
-              name="user-name"
-              id="user-name"
-              placeholder="Name"
-              pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
-              title="Oleksii"
-              required
-          /></label>
+            <span class="leave-an-applicatiom__form__input-wrapper"
+              ><input
+                class="leave-an-application__form__input"
+                type="text"
+                name="user-name"
+                id="user-name"
+                placeholder="Name"
+                pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
+                title="Oleksii"
+                required /><span class="validity-icon"></span></span
+          ></label>
 
           <label class="leave-an-application__form__label" for="user-email">
-            <input
-              class="leave-an-application__form__input"
-              type="email"
-              name="user-email"
-              id="user-email"
-              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
-              title="example@gmail.com"
-              placeholder="Email"
-              required
-          /></label>
+            <span class="leave-an-applicatiom__form__input-wrapper"
+              ><input
+                class="leave-an-application__form__input"
+                type="email"
+                name="user-email"
+                id="user-email"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                title="example@gmail.com"
+                placeholder="Email"
+                required /><span class="validity-icon"></span></span
+          ></label>
 
           <label class="leave-an-application__form__label" for="user-phone">
-            <input
-              class="leave-an-application__form__input"
-              type="tel"
-              name="user-phone"
-              id="user-phone"
-              pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
-              title="xxx-xxx-xx-xx"
-              placeholder="Phone"
-              required
-          /></label>
+            <span class="leave-an-applicatiom__form__input-wrapper"
+              ><input
+                class="leave-an-application__form__input"
+                type="tel"
+                name="user-phone"
+                id="user-phone"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                title="xxx-xxx-xx-xx"
+                placeholder="Phone"
+                required /><span class="validity-icon"></span
+            ></span>
+          </label>
 
           <label class="leave-an-application__form__label" for="user-comment">
             <textarea
@@ -159,8 +163,9 @@
             class="leave-an-appliation__privacy-policy__link"
             target="_blank"
             >Privacy Policy</a
-          >
-          , and allow Promodo to use this information for marketing purposes.
+          >,
+          <br />
+          and allow Promodo to use this information for marketing purposes.
         </p>
       </form>
     </div>

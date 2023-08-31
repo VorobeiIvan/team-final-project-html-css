@@ -331,6 +331,7 @@
   .social-media-link:hover>.social-media-icon,
   .social-media-link:focus>.social-media-icon {
     fill: var(--color-primary-brand-green, #4dc274);
+    border: 1px solid rgba(77, 194, 116, 0.10);
   }
 
   .header-nav-link.active,

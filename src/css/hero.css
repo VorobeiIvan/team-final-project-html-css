@@ -1,5 +1,4 @@
 .hero-image {
-  padding: 20px;
   background-image: url(../img/1x/hero-1x-mobile.jpg);
   background-position: center;
   background-size: cover;
@@ -67,7 +66,6 @@
 
 
 .hero-title-wrapper {
-  /*max-width: 300px;*/
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -118,8 +116,8 @@
   border-radius: var(--border-radius-buttons);
   border: 1px solid var(--color-primary-brand-green);
   line-height: 24px;
-  margin: 40px 0px 20px;
-  transition: all linear 300ms;
+  margin: 40px 0 20px;
+  transition: all var(--transition-main);
 }
 
 @media screen and (min-width: 768px) {
@@ -132,9 +130,7 @@
 
 .hero-button:hover,
 .hero-button:focus {
-  color: var(--color-primary-brand-green);
-  background-color: var(--color-white);
-  border: 1px solid var(--color-primary-brand-green);
+  background-color: var(--color-secondary-brand-green);
 }
 
 .hero-link {
@@ -147,8 +143,9 @@
   border-radius: 50%;
   cursor: pointer;
   margin-left: auto;
+  transition: var(--transition-main);
 }
 
-.hero-link:hover {
+.hero-link:hover, .hero-link:hover {
   background-color: var(--color-primary-brand-green);
 }

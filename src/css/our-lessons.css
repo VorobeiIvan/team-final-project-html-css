@@ -133,8 +133,12 @@
 .our-lessons-item-active .our-lessons-link {
   border: 1px solid rgba(255, 255, 255, 0.40);
 }
+.our-lessons-link:hover, .our-lessons-link:focus {
+  background-color: var(--color-secondary-brand-green);
+}
 
-.our-lessons-link:hover {
+.our-lessons-item-active .our-lessons-link:hover,
+.our-lessons-item-active .our-lessons-link:focus {
   color: var(--color-primary-brand-green);
   background-color: var(--color-white);
   border: 1px solid var(--color-primary-brand-green);

@@ -44,11 +44,6 @@
   }
 }
 
-@media screen and (min-width: 1280px) {
-  .leave-an-application__head-title {
-  }
-}
-
 .leave-an-appliacation__head-title-pseudo {
   position: relative;
   display: inline-block;
@@ -98,18 +93,6 @@
   gap: 32px;
   width: 100%;
   justify-content: center;
-}
-
-@media screen and (min-width: 768px) {
-  .leave-an-application__common-wrapper {
-    /* padding: 0 102px; */
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .leave-an-application__common-wrapper {
-    /* padding: 0 128px; */
-  }
 }
 
 .leave-an-application__content-wrapper {
@@ -190,7 +173,6 @@
 @media screen and (min-width: 768px) {
   .leave-an-application__form {
     width: 500px;
-    /* padding: 0 102px; */
   }
 }
 
@@ -221,7 +203,7 @@
   border: 1px solid rgba(18, 20, 23, 0.1);
 
   background-color: transparent;
-  outline: transparent;
+  /* outline: transparent; */
 
   transition: border-color var(--transition-main);
 
@@ -241,7 +223,7 @@
 
 .leave-an-application__form__input:focus:required:invalid {
   border: 1px solid var(--color-invalid, #ee323d);
-  outline: transparent;
+  /* outline: transparent; */
 }
 
 .leave-an-application__form__input:focus:required:invalid
@@ -251,12 +233,12 @@
   content: '✖';
   top: 0;
   right: 16px;
-  color: red;
+  color: var(--color-invalid, #ee323d);
 }
 
 .leave-an-application__form__input:valid {
   border: 1px solid rgba(18, 20, 23, 0.1);
-  outline: transparent;
+  /* outline: transparent; */
 }
 
 .leave-an-application__form__input:valid + .validity-icon::after {
@@ -265,12 +247,12 @@
   content: '✓';
   top: 0px;
   right: 16px;
-  color: green;
+  color: var(--color-primary-brand-green, #4dc274);
 }
 
 .leave-an-application__form__input:focus {
   border: 1px solid var(--color-primary-brand-green, #4dc274);
-  outline: transparent;
+  /* outline: transparent; */
 }
 
 .textarea {
@@ -438,7 +420,6 @@
 
   border-radius: 12px;
   background: var(--color-primary-brand-green, #4dc274);
-  /* border: 1px solid transparent; */
   border: none;
   margin-bottom: 16px;
   width: 100%;
@@ -462,7 +443,7 @@
 .leave-an-application__form__btn:hover,
 .leave-an-application__form__btn:focus {
   background-color: var(--color-secondary-brand-green, #38ae5f);
-  outline: transparent;
+  /* outline: transparent; */
 }
 
 .leave-an-application__form__btn-text {

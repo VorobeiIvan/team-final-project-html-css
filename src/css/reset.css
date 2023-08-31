@@ -1,4 +1,9 @@
 /* Reset styles */
+
+* {
+  outline: transparent;
+}
+
 h1,
 h2,
 h3,

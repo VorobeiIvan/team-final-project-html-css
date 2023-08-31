@@ -61,7 +61,7 @@
     align-items: center;
     background-color: var(--color-primary-brand-green, #4dc274);
     min-width: 240px;
-    min-height: 812px;
+    min-height: 100vh;
   }
 
   .close-btn {
@@ -193,7 +193,7 @@
     background-color: var(--color-primary-brand-green, #4dc274);
 
     min-width: 348px;
-    min-height: 1000px;
+    min-height: 100vh;
   }
 
   .close-btn {

@@ -97,12 +97,12 @@
   border-radius: 16px;
   z-index: -1;
   background: var(--color-light-green);
-  transform: translateZ(-1px) rotate(-11deg);
+  transform: rotate(-11deg);
 }
 
 @media screen and (min-width: 768px) {
   .benefits__wrapper::before {
-    transform: translateZ(-1px) rotate(-6deg);
+    transform: rotate(-6deg);
   }
 }
 
@@ -117,12 +117,12 @@
   border-radius: 16px;
   z-index: -2;
   background: var(--color-accent-green);
-  transform: translateZ(-2px) rotate(11deg);
+  transform: rotate(11deg);
 }
 
 @media screen and (min-width: 768px) {
   .benefits__wrapper::after {
-    transform: translateZ(-1px) rotate(6deg);
+    transform: rotate(6deg);
   }
 }
 

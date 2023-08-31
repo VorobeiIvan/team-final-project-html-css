@@ -73,6 +73,8 @@
 }
 
 .footer-social-media-icon {
+  height: 26px;
+  width: 26px;
   fill: var(--color-white);
   stroke: none;
 }
@@ -95,6 +97,11 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
+  .footer-social-media-icon {
+    height: 28px;
+    width: 28px;
+  }
+
   .page-footer {
     padding-top: 32px;
     padding-bottom: 16px;
@@ -119,6 +126,11 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .footer-social-media-icon {
+    height: 28px;
+    width: 28px;
+  }
+
   .footer-container {
     display: flex;
     justify-content: space-between;

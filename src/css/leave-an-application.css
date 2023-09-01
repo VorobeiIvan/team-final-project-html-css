@@ -331,7 +331,8 @@
 .leave-an-application-radio-input:focus
   + .leave-an-application-radio-label
   > .leave-an-application-radio-icon-wrapper {
-  transform: scale(1.2);
+  outline: 2px solid #035ecc;
+  outline-offset: 2px;
 }
 
 .leave-an-application-radio-input:checked
@@ -381,8 +382,6 @@
   fill: transparent;
 
   margin-right: 9px;
-  transform: scale(1);
-  transition: scale var(--transition-main);
 }
 
 @media screen and (min-width: 768px) {

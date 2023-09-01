@@ -21,6 +21,7 @@
 @import url('./proposal-to-leave.css');
 @import url('./reviews.css');
 @import url('./footer.css');
+@import url('./footer-additional-pages.css');
 
 :root {
   font-family: 'Manrope', sans-serif;

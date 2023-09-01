@@ -39,6 +39,7 @@ screen and (min-device-pixel-ratio: 2) {
 
 @media screen and (min-width: 1280px) {
   .hero-image {
+    width: calc(100% - 128px);
     height: 614px;
     background-image: url(../img/1x/hero-1x-desktop.webp);
   }

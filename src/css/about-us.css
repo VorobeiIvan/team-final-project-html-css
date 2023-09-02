@@ -10,7 +10,7 @@
     line-height: 1.12;
     letter-spacing: -0.02em;
     text-align: center;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
     position: relative;
 }
 
@@ -100,8 +100,6 @@ screen and (min-device-pixel-ratio: 2) {
     .about-us-text {
         font-size: 18px;
         line-height: 1.67;
-        padding-right: 23px;
-        padding-left: 23px;
     }
 
     .about-us-list {
@@ -134,8 +132,8 @@ screen and (min-device-pixel-ratio: 2) {
     }
 
     .about-us-text {
-        padding-right: 87px;
-        padding-left: 87px;
+        max-width: 658px;
+        margin: 0 auto;
     }
 
     .about-us-list-and-emoji-wrapper {

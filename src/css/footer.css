@@ -83,7 +83,7 @@
   display: flex;
   padding: 7px;
   align-items: center;
-  gap: 8px;
+  /* gap: 8px; */
   border-radius: 10px;
 }
 
@@ -155,5 +155,12 @@
   .page-footer {
     padding-top: 64px;
     padding-bottom: 24px;
+  }
+
+
+  .footer-social-media-link:hover>.footer-social-media-icon,
+  .footer-social-media-link:focus>.footer-social-media-icon {
+    fill: var(--color-primary-brand-green, #4dc274);
+    transition: var(--transition-main);
   }
 }

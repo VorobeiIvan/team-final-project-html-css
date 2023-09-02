@@ -7,7 +7,7 @@
   font-style: normal;
   line-height: 36px; /* 112.5% */
   letter-spacing: -0.64px;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
   position: relative;
 }
 
@@ -44,9 +44,8 @@
   text-align: center;
   font-style: normal;
   line-height: 24px; /* 171.429% */
-  padding-bottom: 40px;
   max-width: 650px;
-  margin: auto;
+  margin: auto auto 40px auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -85,7 +84,7 @@
   font-weight: 700;
   line-height: 24px; /* 120% */
   letter-spacing: -0.4px;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .our-lessons-card-price-text {
@@ -96,7 +95,19 @@
   font-weight: 700;
   line-height: 44px; /* 137.5% */
   letter-spacing: -0.64px;
-  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .our-lessons-card-price-text {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .our-lessons-card-price-text {
+    margin-bottom: 16px;
+  }
 }
 
 
@@ -107,13 +118,20 @@
   border-radius: var(--border-radius-cards-mobile);
   padding: 40px 20px;
   background-color: var(--color-white);
-  min-height: 404px;
-  max-width: 335px;
+  max-width: 336px;
+}
+
+@media screen and (min-width: 768px) {
+  .our-lessons-item {
+    padding: 32px 16px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
   .our-lessons-item {
     max-width: 320px;
+    padding: 32px;
+
   }
 }
 
@@ -145,7 +163,8 @@
 }
 
 .our-lessons-card-text {
-  padding-bottom: 20px;
+  font-size: 14px;
+  margin-bottom: 20px;
   color: var(--color-main-tex-black-50);
   font-family: Manrope, serif;
   text-align: center;
@@ -156,6 +175,7 @@
 @media screen and (min-width: 768px) {
   .our-lessons-card-text {
     font-size: 16px;
+    margin-bottom: 32px;
   }
 }
 
@@ -188,7 +208,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .our-lessons-card-list-wrapper {
-    width: calc((335px * 2 + 32px));
+    width: calc((336px * 2 + 32px));
     margin: auto;
   }
 }

@@ -7,7 +7,7 @@
   font-style: normal;
   line-height: 36px; /* 112.5% */
   letter-spacing: -0.64px;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
   position: relative;
 }
 
@@ -44,9 +44,8 @@
   text-align: center;
   font-style: normal;
   line-height: 24px; /* 171.429% */
-  padding-bottom: 40px;
   max-width: 650px;
-  margin: auto;
+  margin: auto auto 40px auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -85,7 +84,7 @@
   font-weight: 700;
   line-height: 24px; /* 120% */
   letter-spacing: -0.4px;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .our-lessons-card-price-text {
@@ -96,7 +95,7 @@
   font-weight: 700;
   line-height: 44px; /* 137.5% */
   letter-spacing: -0.64px;
-  padding-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 
@@ -145,7 +144,7 @@
 }
 
 .our-lessons-card-text {
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   color: var(--color-main-tex-black-50);
   font-family: Manrope, serif;
   text-align: center;

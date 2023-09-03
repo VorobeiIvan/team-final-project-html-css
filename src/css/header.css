@@ -351,16 +351,23 @@
 
   }
 
-  .header-nav-link:hover::after,
-  .header-nav-link:focus::after,
-  .header-nav-link.active::after {
+  .header-nav-link::after {
     content: '';
     position: absolute;
     left: 0;
     bottom: -4px;
     height: 2px;
-    width: 37px;
+    width: 0;
     background-color: var(--color-primary-brand-green, #4dc274);
+    opacity: 0;
     transition: var(--transition-main);
   }
+
+  .header-nav-link:hover::after,
+  .header-nav-link:focus::after,
+  .header-nav-link.active::after {
+    width: 37px;
+    opacity: 1;
+  }
+
 }

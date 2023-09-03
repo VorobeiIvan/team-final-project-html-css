@@ -64,6 +64,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .teachers-title {
+    font-size: 40px;
+  }
+
   .teachers-text {
     font-size: 18px;
   }
@@ -81,6 +85,8 @@
 }
 
 @media screen and (min-width: 1280px) {
+
+
   .teachers-text {
     font-size: 18px;
     max-width: 710px;
@@ -96,4 +102,5 @@
   .teachers-item {
     max-width: 204px;
   }
+
 }

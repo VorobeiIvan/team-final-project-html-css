@@ -28,7 +28,7 @@
 
 @media screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-device-pixel-ratio: 2) {
   .hero-image {
-    background-image: url(../img/2x/hero-2x-mobile.webp);
+    background-image: url(../img/2x/hero-2x-mobile@2x.webp);
   }
 }
 
@@ -41,7 +41,7 @@
 
   @media screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
     .hero-image {
-      background-image: url(../img/2x/hero-2x-tablet.webp);
+      background-image: url(../img/2x/hero-2x-tablet@2x.webp);
       border-radius: var(--border-radius-cards);
     }
   }
@@ -56,7 +56,7 @@
 
   @media screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
     .hero-image {
-      background-image: url(../img/2x/hero-2x-desktop.webp);
+      background-image: url(../img/2x/hero-2x-desktop@2x.webp);
     }
   }
 }

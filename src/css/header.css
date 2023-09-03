@@ -122,7 +122,7 @@
     display: flex;
     padding: 7px;
     align-items: center;
-    gap: 8px;
+
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.10);
   }
@@ -264,7 +264,7 @@
     display: flex;
     padding: 8px;
     align-items: center;
-    gap: 8px;
+
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.10);
   }
@@ -273,7 +273,9 @@
 @media screen and (min-width: 1280px) {
 
   .header-container {
+    padding-inline: 128px;
     padding-block: 20px;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -323,7 +325,6 @@
     display: flex;
     padding: 8px;
     align-items: center;
-    gap: 8px;
 
     border-radius: 10px;
     border: 1px solid var(--color-border-black-10, rgba(18, 20, 23, 0.1));

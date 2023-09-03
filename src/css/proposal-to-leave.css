@@ -157,7 +157,7 @@
 
 @media screen and (min-width: 1280px) {
   .benefit-list {
-    max-width: 680px;
+    max-width: 710px;
     margin-bottom: 40px;
   }
 }
@@ -193,6 +193,7 @@
   font-size: 14px;
   font-weight: 700;
   line-height: 1.4;
+  letter-spacing: 0.02em;
 }
 
 @media screen and (min-width: 768px) {

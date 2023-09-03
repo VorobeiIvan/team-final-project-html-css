@@ -183,7 +183,7 @@
   display: block;
   text-align: center;
   color: var(--color-white);
-  padding: 14px;
+  padding: 13px 0;
   background-color: var(--color-primary-brand-green);
   border: 1px solid var(--color-primary-brand-green);
   border-radius: var(--border-radius-buttons);
@@ -199,6 +199,7 @@
     font-size: 18px;
     font-weight: 700;
     line-height: 28px; /* 155.556% */
+    padding: 15px 0;
   }
 }
 

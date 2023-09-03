@@ -14,6 +14,18 @@
   padding-bottom: 80px;
 }
 
+@media screen and (min-width: 758px) {
+  .hero-section{
+    padding-bottom: 100px;
+
+  }
+}
+@media screen and (min-width: 1280px) {
+  .hero-section{
+    padding-bottom: 96px;
+  }
+}
+
 @media screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-device-pixel-ratio: 2) {
   .hero-image {
     background-image: url(../img/2x/hero-2x-mobile.webp);

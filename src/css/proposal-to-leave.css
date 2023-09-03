@@ -82,7 +82,7 @@
 @media screen and (min-width: 1280px) {
   .benefits-wrapper {
     padding: 64px;
-    background-position: right -40px bottom 85px;
+    background-position: right 5px bottom 85px;
   }
 }
 
@@ -157,7 +157,7 @@
 
 @media screen and (min-width: 1280px) {
   .benefit-list {
-    max-width: 654px;
+    max-width: 710px;
     margin-bottom: 40px;
   }
 }
@@ -183,10 +183,17 @@
   }
 }
 
+@media screen and (min-width: 1280px) {
+  .benefit-icon {
+    margin-right: 16px;
+  }
+}
+
 .benefit-text {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.4;
+  letter-spacing: 0.02em;
 }
 
 @media screen and (min-width: 768px) {
